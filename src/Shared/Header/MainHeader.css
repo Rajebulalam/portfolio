@@ -1,0 +1,27 @@
+.linkItem {
+    font-size: 16px;
+    font-weight: 600;
+    color: #565966;
+    position: relative;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.linkItem::after {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background: #df4a43;
+    width: 0%;
+    height: 5px;
+    content: "";
+    transition: 0.5s;
+}
+
+.linkItem:hover::after {
+    width: 100%;
+}
+
+.linkItem:hover {
+    color: #df4a43;
+}
