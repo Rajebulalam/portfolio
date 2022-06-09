@@ -12,11 +12,11 @@ const TopHeader = () => {
                     <div className='flex items-center'>
                         <div className='flex items-center px-3 border-l border-r py-2'>
                             <FontAwesomeIcon className='pr-3 text-primary' icon={faPhone}></FontAwesomeIcon>
-                            <p style={{ fontFamily: 'Merienda' }}>Call Me: 01872238027</p>
+                            <p className='text-accent' style={{ fontFamily: 'Merienda' }}>Call Me: 01872238027</p>
                         </div>
                         <div className='border-r px-3 flex items-center py-2'>
                             <FontAwesomeIcon className='pr-3 text-primary' icon={faEnvelope}></FontAwesomeIcon>
-                            <p style={{ fontFamily: 'Merienda' }}>Email: rajebulalam27@gamil.com</p>
+                            <p className='text-accent' style={{ fontFamily: 'Merienda' }}>Email: rajebulalam27@gamil.com</p>
                         </div>
                     </div>
                     <div className='h-[27px]'>
