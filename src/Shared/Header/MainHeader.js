@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './MainHeader.css';
-import banner from '../../images/banner.jpg';
 
 const MainHeader = () => {
 
@@ -18,7 +17,7 @@ const MainHeader = () => {
     return (
         <header>
             <nav className='w-full sm:w-11/12 mx-auto px-3'>
-                <div class="navbar bg-base-100">
+                <div class="navbar bg-base-100 py-0">
                     <div class="navbar-start">
                         <div class="dropdown">
                             <label tabindex="0" class="btn btn-ghost lg:hidden">
@@ -28,7 +27,7 @@ const MainHeader = () => {
                                 {menuItem}
                             </ul>
                         </div>
-                        <Link to='/' class="normal-case text-5xl py-8 font-extrabold">KHOKAN</Link>
+                        <Link to='/' class="normal-case text-5xl py-5 sm:py-7 font-extrabold">KHOKAN</Link>
                     </div>
                     <div class="navbar-end hidden lg:flex">
                         <ul class="menu menu-horizontal p-0">

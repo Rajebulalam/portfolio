@@ -3,8 +3,8 @@
     font-weight: 600;
     color: #565966;
     position: relative;
-    padding-top: 32px;
-    padding-bottom: 32px;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 .linkItem::after {
@@ -24,4 +24,19 @@
 
 .linkItem:hover {
     color: #df4a43;
+}
+
+/* Media Query */
+
+@media only screen and (min-width: 200px) and (max-width: 991px) {
+
+    .linkItem {
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }
+
+    .linkItem:hover::after {
+        width: 50%;
+    }
+
 }
