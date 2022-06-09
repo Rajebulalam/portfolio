@@ -1,0 +1,423 @@
+.animation {
+    color: transparent;
+    font-size: 40px;
+    white-space: no-wrap;
+    position: relative;
+}
+
+.animation::before {
+    content: "Md. Rajebul Alam Khokan";
+    position: absolute;
+    top: 0;
+    left: 10px;
+    color: #22C55E;
+    animation: typing 25s linear infinite;
+}
+
+/* Typing Animation */
+
+@keyframes typing {
+    0% {
+        content: "M|";
+    }
+
+    1% {
+        content: "MD|";
+    }
+
+    2% {
+        content: "MD.|";
+    }
+
+    3% {
+        content: "MD. |";
+    }
+
+    4% {
+        content: "MD. R|";
+    }
+
+    5% {
+        content: "MD. RA|";
+    }
+
+    6% {
+        content: "MD. RAJ|";
+    }
+
+    7% {
+        content: "MD. RAJE|";
+    }
+
+    8% {
+        content: "MD. RAJEB|";
+    }
+
+    9% {
+        content: "MD. RAJEBU|";
+    }
+
+    10% {
+        content: "MD. RAJEBUL|";
+    }
+
+    11% {
+        content: "MD. RAJEBUL |";
+    }
+
+    12% {
+        content: "MD. RAJEBUL A|";
+    }
+
+    13% {
+        content: "MD. RAJEBUL AL|";
+    }
+
+    14% {
+        content: "MD. RAJEBUL ALA|";
+    }
+
+    15% {
+        content: "MD. RAJEBUL ALAM|";
+    }
+
+    16% {
+        content: "MD. RAJEBUL ALAM |";
+    }
+
+    17% {
+        content: "MD. RAJEBUL ALAM K|";
+    }
+
+    18% {
+        content: "MD. RAJEBUL ALAM KH|";
+    }
+
+    19% {
+        content: "MD. RAJEBUL ALAM KHO|";
+    }
+
+    20% {
+        content: "MD. RAJEBUL ALAM KHOK|";
+    }
+
+    21% {
+        content: "MD. RAJEBUL ALAM KHOKA|";
+    }
+
+    22% {
+        content: "MD. RAJEBUL ALAM KHOKAN|";
+    }
+
+    23% {
+        content: "MD. RAJEBUL ALAM KHOKA|";
+    }
+
+    24% {
+        content: "MD. RAJEBUL ALAM KHOK|";
+    }
+
+    25% {
+        content: "MD. RAJEBUL ALAM KHO|";
+    }
+
+    26% {
+        content: "MD. RAJEBUL ALAM KH|";
+    }
+
+    27% {
+        content: "MD. RAJEBUL ALAM K|";
+    }
+
+    28% {
+        content: "MD. RAJEBUL ALAM |";
+    }
+
+    29% {
+        content: "MD. RAJEBUL ALAM|";
+    }
+
+    30% {
+        content: "MD. RAJEBUL ALA|";
+    }
+
+    31% {
+        content: "MD. RAJEBUL AL|";
+    }
+
+    32% {
+        content: "MD. RAJEBUL A|";
+    }
+
+    33% {
+        content: "MD. RAJEBUL |";
+    }
+
+    34% {
+        content: "MD. RAJEBUL|";
+    }
+
+    35% {
+        content: "MD. RAJEBU|";
+    }
+
+    36% {
+        content: "MD. RAJEB|";
+    }
+
+    37% {
+        content: "MD. RAJE|";
+    }
+
+    38% {
+        content: "MD. RAJ|";
+    }
+
+    39% {
+        content: "MD. RA|";
+    }
+
+    40% {
+        content: "MD. R|";
+    }
+
+    41% {
+        content: "MD. |";
+    }
+
+    42% {
+        content: "MD.|";
+    }
+
+    43% {
+        content: "MD|";
+    }
+
+    44% {
+        content: "M|";
+    }
+
+    45% {
+        content: "|";
+    }
+
+    46% {
+        content: "A |";
+    }
+
+    47% {
+        content: "A F|";
+    }
+
+    48% {
+        content: "A FR|";
+    }
+
+    49% {
+        content: "A FRO|";
+    }
+
+    50% {
+        content: "A FRON|";
+    }
+
+    51% {
+        content: "A FRONT|";
+    }
+
+    52% {
+        content: "A FRONT |";
+    }
+
+    53% {
+        content: "A FRONT E|";
+    }
+
+    54% {
+        content: "A FRONT EN|";
+    }
+
+    55% {
+        content: "A FRONT END|";
+    }
+
+    56% {
+        content: "A FRONT END |";
+    }
+
+    57% {
+        content: "A FRONT END D|";
+    }
+
+    58% {
+        content: "A FRONT END DE|";
+    }
+
+    59% {
+        content: "A FRONT END DEV|";
+    }
+
+    60% {
+        content: "A FRONT END DEVE|";
+    }
+
+    61% {
+        content: "A FRONT END DEVEL|";
+    }
+
+    62% {
+        content: "A FRONT END DEVELO|";
+    }
+
+    63% {
+        content: "A FRONT END DEVELOP|";
+    }
+
+    64% {
+        content: "A FRONT END DEVELOPE|";
+    }
+
+    65% {
+        content: "A FRONT END DEVELOPER|";
+    }
+
+    66% {
+        content: "A FRONT END DEVELOPER|";
+    }
+
+    67% {
+        content: "A FRONT END DEVELOPE|";
+    }
+
+    68% {
+        content: "A FRONT END DEVELOP|";
+    }
+
+    69% {
+        content: "A FRONT END DEVELO|";
+    }
+
+    70% {
+        content: "A FRONT END DEVEL|";
+    }
+
+    71% {
+        content: "A FRONT END DEVE|";
+    }
+
+    72% {
+        content: "A FRONT END DEV|";
+    }
+
+    73% {
+        content: "A FRONT END DE|";
+    }
+
+    74% {
+        content: "A FRONT END D|";
+    }
+
+    75% {
+        content: "A FRONT END |";
+    }
+
+    76% {
+        content: "A FRONT END|";
+    }
+
+    77% {
+        content: "A FRONT EN|";
+    }
+
+    78% {
+        content: "A FRONT E|";
+    }
+
+    79% {
+        content: "A FRONT |";
+    }
+
+    80% {
+        content: "A FRONT|";
+    }
+
+    81% {
+        content: "A FRON|";
+    }
+
+    82% {
+        content: "A FRO|";
+    }
+
+    83% {
+        content: "A FR|";
+    }
+
+    84% {
+        content: "A F|";
+    }
+
+    85% {
+        content: "A |";
+    }
+
+    86% {
+        content: "A|";
+    }
+
+    87% {
+        content: "|";
+    }
+
+    88% {
+        content: "A|";
+    }
+
+    89% {
+        content: "A C|";
+    }
+
+    90% {
+        content: "A CO|";
+    }
+
+    91% {
+        content: "A COD|";
+    }
+
+    92% {
+        content: "A CODE|";
+    }
+
+    93% {
+        content: "A CODER|";
+    }
+
+    94% {
+        content: "A CODER|";
+    }
+
+    95% {
+        content: "A CODE|";
+    }
+
+    96% {
+        content: "A COD|";
+    }
+
+    97% {
+        content: "A CO|";
+    }
+
+    98% {
+        content: "A C|";
+    }
+
+    99% {
+        content: "A|";
+    }
+
+    100% {
+        content: "|";
+    }
+}
