@@ -2,7 +2,7 @@ import React from 'react';
 import './Work.css';
 import work4 from '../../../images/work4.png'
 import work5 from '../../../images/work5.png'
-import work6 from '../../../images/work6.png'
+import architect from '../../../images/architect.png'
 
 const Works = () => {
     return (
@@ -34,7 +34,7 @@ const Works = () => {
                         </div>
                     </div>
                     <div className='border'>
-                        <img className='w-[500px] border-b' src={work6} alt="work" />
+                        <img className='w-[500px] border-b' src={architect} alt="work" />
                         <div className='px-3'>
                             <h3 style={{ fontFamily: 'Merienda' }} className='text-2xl text-primary font-bold pt-4 pb-2'>Electric Tools</h3>
                             <h6 className='text-gray-500 pb-4'>Full-Stack Project</h6>

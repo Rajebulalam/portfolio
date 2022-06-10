@@ -1,18 +1,19 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './MainHeader.css';
+import { ExternalLink } from 'react-external-link';
 
 const MainHeader = () => {
 
     const menuItem = <>
-        <li className=''><Link className='linkItem uppercase hover:bg-white bg-transparent' to='/'>Home</Link></li>
-        <li className=''><Link className='linkItem uppercase hover:bg-white bg-transparent' to='/'>Services</Link></li>
-        <li className=''><Link className='linkItem uppercase hover:bg-white bg-transparent' to='/'>Project</Link></li>
-        <li className=''><Link className='linkItem uppercase hover:bg-white bg-transparent' to='/'>Features</Link></li>
-        <li className=''><Link className='linkItem uppercase hover:bg-white bg-transparent' to='/'>Blog</Link></li>
-        <li className=''><Link className='linkItem uppercase hover:bg-white bg-transparent' to='/'>About</Link></li>
-        <li className=''><Link className='linkItem uppercase hover:bg-white bg-transparent' to='/'>Contact</Link></li>
-        <li><Link className='uppercase font-semibold text-primary border border-primary hover:bg-primary hover:text-white resume' to='/'>Resume</Link></li>
+        <li><Link className='linkItem uppercase hover:bg-white bg-transparent' to='/'>Home</Link></li>
+        <li><Link className='linkItem uppercase hover:bg-white bg-transparent' to='/'>Services</Link></li>
+        <li><Link className='linkItem uppercase hover:bg-white bg-transparent' to='/'>Project</Link></li>
+        <li><Link className='linkItem uppercase hover:bg-white bg-transparent' to='/'>Features</Link></li>
+        <li><Link className='linkItem uppercase hover:bg-white bg-transparent' to='/'>Blog</Link></li>
+        <li><Link className='linkItem uppercase hover:bg-white bg-transparent' to='/'>About</Link></li>
+        <li><Link className='linkItem uppercase hover:bg-white bg-transparent' to='/'>Contact</Link></li>
+        <li><ExternalLink className='uppercase font-semibold text-primary border border-primary hover:bg-primary hover:text-white resume' href='https://drive.google.com/file/d/1UnWkUuCfSJNNXCC5RR2lva8HfhNjubra/view?usp=sharing'>Resume</ExternalLink></li>
     </>
 
     return (
