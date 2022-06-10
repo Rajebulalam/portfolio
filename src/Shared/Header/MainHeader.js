@@ -12,6 +12,7 @@ const MainHeader = () => {
         <li className=''><Link className='linkItem uppercase hover:bg-white bg-transparent' to='/'>Blog</Link></li>
         <li className=''><Link className='linkItem uppercase hover:bg-white bg-transparent' to='/'>About</Link></li>
         <li className=''><Link className='linkItem uppercase hover:bg-white bg-transparent' to='/'>Contact</Link></li>
+        <li><Link className='uppercase font-semibold text-primary border border-primary hover:bg-primary hover:text-white resume' to='/'>Resume</Link></li>
     </>
 
     return (

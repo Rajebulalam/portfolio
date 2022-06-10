@@ -1,12 +1,12 @@
 import { faFacebookF, faGithub, faLinkedinIn, faTwitter } from '@fortawesome/fontawesome-free-brands';
-import { faEnvelope, faLocationDot, faMapLocationDot, faPhone } from '@fortawesome/free-solid-svg-icons';
+import { faEnvelope, faLocationDot, faPhone } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import { Link } from 'react-router-dom';
 
 const Footer = () => {
     return (
-        <footer className='py-10 bg-neutral'>
+        <footer className='py-14 bg-neutral'>
             <div className='w-full sm:w-11/12 mx-auto px-4 sm:px-6'>
                 <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-x-7 gap-y-8'>
                     <div className='text-center sm:text-left'>

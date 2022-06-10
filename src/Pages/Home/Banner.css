@@ -10,7 +10,9 @@
     position: absolute;
     top: 0;
     left: 10px;
-    color: #df4a43;;
+    line-height: 1.3em;
+    color: #df4a43;
+    ;
     animation: typing 25s linear infinite;
 }
 
@@ -420,4 +422,13 @@
     100% {
         content: "|";
     }
+}
+
+/* Media Query */
+@media only screen and (min-width: 200px) and (max-width: 560px) {
+
+    .animation {
+        font-size: 20px;
+    }
+
 }
