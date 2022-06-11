@@ -2,8 +2,8 @@
     {
         "id": 1,
         "main": "https://i.ibb.co/r31prnm/work4.png",
-        "second": "",
-        "third": "",
+        "second": "https://i.ibb.co/QDP6YFF/second.png",
+        "third": "https://i.ibb.co/RNsbqq4/third.png",
         "name": "Electric Tools",
         "project": "Full Stack Project",
         "description": "A manufacturing full-stack project. This project Developed on react and firebase authentication based. The project has different features for admin and normal users in DASHBOARD.",
@@ -18,7 +18,17 @@
             "JWT"
         ],
         "live": "https://electric-tools-4d28a.web.app/",
-        "git": "https://github.com/Rajebulalam/electric-tools"
+        "git": "https://github.com/Rajebulalam/electric-tools",
+        "features": [
+            "Created a manufacturing management wholesale electric tools system.",
+            "Developed with admin panel and normal user different user experience.",
+            "Created a full-stack real-world project with a payment method integrated.",
+            "This project has a home, blog, add portfolio, dashboard, purchase, registration and login page.",
+            "The home page contain responsive nav bar, banner, tools part, new stored section, summary, new collection, subscribe section, reviews and also footer section.",
+            "The Dashboard route provide variety of user experience like admin and normal users.",
+            "Dashboard route is a protected route. Without register or login no one can get into protected route.",
+            "On dashboard admin can add a product, make admin, manage order and all order on the other hand normal user can see add reviews and my order link."
+        ]
     },
     {
         "id": 2,
@@ -38,7 +48,17 @@
             "JWT"
         ],
         "live": "https://dress-warehouse-client.web.app/",
-        "git": "https://github.com/Rajebulalam/dress-warehouse-client"
+        "git": "https://github.com/Rajebulalam/dress-warehouse-client",
+        "features": [
+            "Created an ideal warehouse management system with firebase authentication.",
+            "Developed with user experience and bugs-free website.",
+            "With mobile deployment anytime, anywhere can access.",
+            "This project has a home, blog, add items, my items, manage items, registration and login page.",
+            "The home page contain responsive nav bar, banner, inventory section, new stored section, best supply section, stylist section, subscribe section and also footer section.",
+            "The inventory section has some interaction with react route.",
+            "Dress warehouse has some protected route. Without register or login no one can get into protected route.",
+            "This project is also has registration and login with firebase authentication."
+        ]
     },
     {
         "id": 3,
@@ -56,6 +76,16 @@
             "React"
         ],
         "live": "https://artchitect-portfolio.firebaseapp.com/",
-        "git": "https://github.com/Rajebulalam/architect-service-provider-website"
+        "git": "https://github.com/Rajebulalam/architect-service-provider-website",
+        "features": [
+            "Created an architect service services system with fresh and clean code.",
+            "Developed with responsiveness for all devices and optimized.",
+            "Login system implement by using firebase authentication.",
+            "Architect Portfolio project is created on react and firebase based.",
+            "This project has a home page , blog page, about page, registration and login page.",
+            "The home page contain responsive nav bar, banner, service section and also footer.",
+            "The service section has some interaction with react route.",
+            "And it has a protected route. Without register or login no one can get into checkout route."
+        ]
     }
 ]
