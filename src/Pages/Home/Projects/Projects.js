@@ -30,7 +30,7 @@ const Projects = () => {
                         {
                             projects.map(project =>
                                 <div key={project.id} className='grid grid-cols-1 sm:grid-cols-2 gap-8 pb-5'>
-                                    <div className='flex items-center justify-center bg-blue-100 py-10 rounded-sm'>
+                                    <div className='flex items-center justify-center bg-blue-100 py-10 rounded-sm px-2'>
                                         <img src={project.main} alt="projectImage" />
                                     </div>
                                     <div className='flex items-center justify-center bg-blue-100 py-10 rounded-sm'>

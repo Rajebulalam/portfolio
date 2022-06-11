@@ -26,7 +26,7 @@
     color: #df4a43;
 }
 
-.resume{
+.resume {
     margin: 30px 0;
     height: 25px;
     padding: 20px 30px;
@@ -37,12 +37,20 @@
 @media only screen and (min-width: 200px) and (max-width: 991px) {
 
     .linkItem {
-        padding-top: 12px;
-        padding-bottom: 12px;
+        padding-top: 10px;
+        padding-bottom: 10px;
     }
 
     .linkItem:hover::after {
         width: 50%;
+    }
+
+}
+
+@media only screen and (min-width: 200px) and (max-width: 520px) {
+
+    .resume {
+        margin: 5px;
     }
 
 }

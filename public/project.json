@@ -33,8 +33,8 @@
     {
         "id": 2,
         "main": "https://i.ibb.co/r2xQY7h/dressware.png",
-        "second": "",
-        "third": "",
+        "second": "https://i.ibb.co/gZTxc7v/dressware2.png",
+        "third": "https://i.ibb.co/vhd0WFD/dressware3.png",
         "name": "Dress Warehouse",
         "project": "Full Stack Project",
         "description": "Dress Warehouse website is an inventory management store system that we can easily store product and calculate its functionality. It's created with react single page application, node.js, mongoDB. ",
@@ -63,8 +63,8 @@
     {
         "id": 3,
         "main": "https://i.ibb.co/YpvQ84d/architect.png",
-        "second": "",
-        "third": "",
+        "second": "https://i.ibb.co/rbrLvt7/architect2.png",
+        "third": "https://i.ibb.co/bWSrtdm/architect3.png",
         "name": "Architect Service",
         "project": "Front End Project",
         "description": "Architect Portfolio project is created on react and firebase based. It's an independent service website for a single person.",

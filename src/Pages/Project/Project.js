@@ -31,9 +31,9 @@ const Project = () => {
             <div className='w-full sm:w-11/12 mx-auto px-4 sm:px-6'>
                 <h2 style={{ fontFamily: 'Merienda' }} className='text-3xl text-primary text-center font-bold pb-8'>Project : {exists?.name}</h2>
                 <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 p-6 bg-gray-200 mb-6'>
-                    <img src={exists?.main} alt="mainImage" />
-                    <img src={exists?.second} alt="mainImage" />
-                    <img src={exists?.third} alt="mainImage" />
+                    <img className='rounded-sm' src={exists?.main} alt="mainImage" />
+                    <img className='rounded-sm' src={exists?.second} alt="mainImage" />
+                    <img className='rounded-sm' src={exists?.third} alt="mainImage" />
                 </div>
                 <div className='p-6 bg-gray-200'>
                     <p style={{ fontSize: '18px' }}>{exists?.description}</p>
