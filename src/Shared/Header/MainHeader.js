@@ -7,9 +7,9 @@ const MainHeader = () => {
 
     const menuItem = <>
         <li><Link className='linkItem uppercase hover:bg-white bg-transparent' to='/'>Home</Link></li>
-        <li><Link className='linkItem uppercase hover:bg-white bg-transparent' to='/'>Services</Link></li>
-        <li><Link className='linkItem uppercase hover:bg-white bg-transparent' to='/'>Project</Link></li>
-        <li><Link className='linkItem uppercase hover:bg-white bg-transparent' to='/'>Features</Link></li>
+        <li><Link className='linkItem uppercase hover:bg-white bg-transparent' to='/services#services'>Services</Link></li>
+        <li><Link className='linkItem uppercase hover:bg-white bg-transparent' to='/projects#projects'>Project</Link></li>
+        <li><Link className='linkItem uppercase hover:bg-white bg-transparent' to='/features#features'>Features</Link></li>
         <li><Link className='linkItem uppercase hover:bg-white bg-transparent' to='/'>Blog</Link></li>
         <li><Link className='linkItem uppercase hover:bg-white bg-transparent' to='/'>About</Link></li>
         <li><Link className='linkItem uppercase hover:bg-white bg-transparent' to='/'>Contact</Link></li>

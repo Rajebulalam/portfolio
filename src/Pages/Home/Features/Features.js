@@ -5,7 +5,7 @@ import './Features.css';
 
 const Features = () => {
     return (
-        <section className='py-10'>
+        <section id='features' className='py-10'>
             <div className='w-full sm:w-11/12 px-4 sm:px-6 mx-auto features'>
                 <h2 style={{ fontFamily: 'Merienda' }} className='text-center font-bold text-primary text-3xl py-4'>My Features</h2>
                 <h4 style={{ fontFamily: 'Merienda' }} className='text-center font-semibold text-accent text-xl py-4 pb-8'>Why You Should Work With Me?</h4>

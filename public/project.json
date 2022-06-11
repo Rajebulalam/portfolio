@@ -1,38 +1,61 @@
 [
     {
         "id": 1,
-        "main": "",
+        "main": "https://i.ibb.co/r31prnm/work4.png",
         "second": "",
         "third": "",
-        "name": "",
-        "project": "",
-        "description": "",
-        "technologies": [],
-        "live": "",
-        "git": ""
+        "name": "Electric Tools",
+        "project": "Full Stack Project",
+        "description": "A manufacturing full-stack project. This project Developed on react and firebase authentication based. The project has different features for admin and normal users in DASHBOARD.",
+        "technologies": [
+            "TailWind",
+            "Rect",
+            "Firebase",
+            "Node",
+            "Express",
+            "MongoDB",
+            "Stripe",
+            "JWT"
+        ],
+        "live": "https://electric-tools-4d28a.web.app/",
+        "git": "https://github.com/Rajebulalam/electric-tools"
     },
     {
-        "id": 1,
-        "main": "",
+        "id": 2,
+        "main": "https://i.ibb.co/r2xQY7h/dressware.png",
         "second": "",
         "third": "",
-        "name": "",
-        "project": "",
-        "description": "",
-        "technologies": [],
-        "live": "",
-        "git": ""
+        "name": "Dress Warehouse",
+        "project": "Full Stack Project",
+        "description": "Dress Warehouse website is an inventory management store system that we can easily store product and calculate its functionality. It's created with react single page application, node.js, mongoDB. ",
+        "technologies": [
+            "TailWind",
+            "Rect",
+            "Firebase",
+            "Node",
+            "Express",
+            "MongoDB",
+            "JWT"
+        ],
+        "live": "https://dress-warehouse-client.web.app/",
+        "git": "https://github.com/Rajebulalam/dress-warehouse-client"
     },
     {
-        "id": 1,
-        "main": "",
+        "id": 3,
+        "main": "https://i.ibb.co/YpvQ84d/architect.png",
         "second": "",
         "third": "",
-        "name": "",
-        "project": "",
-        "description": "",
-        "technologies": [],
-        "live": "",
-        "git": ""
+        "name": "Architect Service",
+        "project": "Front End Project",
+        "description": "Architect Portfolio project is created on react and firebase based. It's an independent service website for a single person.",
+        "technologies": [
+            "HTML5",
+            "CSS3",
+            "Bootstrap",
+            "Firebase",
+            "React"
+        ],
+        "live": "https://artchitect-portfolio.firebaseapp.com/",
+        "git": "https://github.com/Rajebulalam/architect-service-provider-website"
     }
 ]

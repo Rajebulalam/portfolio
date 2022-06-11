@@ -6,7 +6,7 @@ import './Services.css';
 
 const Services = () => {
     return (
-        <section className='py-10 bg-neutral'>
+        <section id='services' className='py-10 bg-neutral'>
             <div className='w-full sm:w-11/12 mx-auto px-4 sm:px-6 services'>
                 <h2 style={{ fontFamily: 'Merienda' }} className='text-3xl text-primary text-center font-bold py-4'>My Services</h2>
                 <h4 style={{ fontFamily: 'Merienda' }} className='text-xl text-accent text-center font-semibold pt-4 pb-8'>Awesome & Creative Services For You</h4>
