@@ -1,0 +1,15 @@
+.about .line {
+    position: relative;
+}
+
+.about .line::after {
+    position: absolute;
+    display: block;
+    width: 60px;
+    height: 2px;
+    content: "";
+    left: 50%;
+    margin-left: -25px;
+    bottom: 0;
+    background: #cbcbcd;
+}
