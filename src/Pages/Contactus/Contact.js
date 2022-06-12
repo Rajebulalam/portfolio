@@ -2,8 +2,21 @@ import { faEnvelope, faLocationDot, faPhone } from '@fortawesome/free-solid-svg-
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import banner from '../../images/banner.jpg';
+import emailjs from 'emailjs-com';
 
 const Contact = () => {
+
+    const sendEmail = (e) => {
+        e.preventDefault();
+
+        emailjs.sendForm('service_l2mh3ra', 'template_mjns3v9', e.target, 'DaKnbaHxEK4oxNIFK')
+            .then(res => {
+                console.log(res);
+                alert('Email Sent');
+            })
+            .catch(err => console.log(err))
+    }
+
     return (
         <section style={{ background: `url(${banner})`, backgroundSize: 'cover' }} className='py-12'>
             <div className='w-full sm:w-10/12 mx-auto px-4 sm:px-6'>
@@ -42,7 +55,7 @@ const Contact = () => {
                     </div>
                     <div className='bg-white rounded-sm p-5'>
                         <h3 style={{ fontFamily: 'Merienda' }} className='text-primary text-2xl font-bold pb-4'>Send Message</h3>
-                        <form>
+                        <form onSubmit={sendEmail}>
                             <input type="text" name="name" id="name" placeholder='Your Name' className='py-3 border-b border-3 outline-0 w-full mb-3' />
                             <input type="email" name="email" id="email" placeholder='Email' className='py-3 border-b border-3 outline-0 w-full' />
                             <textarea name="message" id="message" rows="5" className='py-3 border-b border-3 outline-0 w-full' placeholder='Write your message...'></textarea>
