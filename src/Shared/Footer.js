@@ -11,7 +11,7 @@ const Footer = () => {
                 <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-x-7 gap-y-8'>
                     <div className='text-center sm:text-left'>
                         <h2 style={{ fontFamily: 'Merienda' }} className='text-primary text-3xl font-bold pb-4'>About Me</h2>
-                        <p className='text-gray-400'>I strongly believe that if you satisfied me by you behavior then I will satisfied you by my work.</p>
+                        <p className='text-gray-400'>I strongly believe that if you satisfied me by your behavior then I will satisfied you by my work.</p>
                         <div className='flex items-center justify-center sm:justify-start pt-4'>
                             <FontAwesomeIcon className='font-awesome text-primary' icon={faLocationDot}></FontAwesomeIcon>
                             <p className='text-gray-400 pl-3'>Chattogram, Bangladesh</p>

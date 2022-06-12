@@ -13,6 +13,7 @@ const Contact = () => {
             .then(res => {
                 console.log(res);
                 alert('Email Sent');
+                e.target.reset();
             })
             .catch(err => console.log(err))
     }
