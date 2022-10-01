@@ -10,7 +10,7 @@ const Features = () => {
                 <h2 style={{ fontFamily: 'Merienda' }} className='text-center font-bold text-primary text-3xl py-4'>My Features</h2>
                 <h4 style={{ fontFamily: 'Merienda' }} className='text-center font-semibold text-accent text-xl py-4 pb-8'>Why You Should Work With Me?</h4>
                 <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 gap-y-10'>
-                    <div className='flex justify-between'>
+                    <div data-aos="fade-down-right" data-aos-duration="1000" className='flex justify-between'>
                         <div className='pr-3'>
                             <FontAwesomeIcon className='font-awesome text-4xl text-primary border p-6 hover:bg-primary hover:text-white rounded-sm' icon={faLaptop}></FontAwesomeIcon>
                         </div>
@@ -19,7 +19,7 @@ const Features = () => {
                             <p className='pt-2 text-accent'>If you want that, your website will look perfect so that it can be eye-catching for the website visitor? Then you should need a pixel-perfect design. That increases your website's beauty.</p>
                         </div>
                     </div>
-                    <div className='flex justify-between'>
+                    <div data-aos="fade-down-right" data-aos-duration="1500" className='flex justify-between'>
                         <div className='pr-3'>
                             <FontAwesomeIcon className='font-awesome text-4xl text-primary border p-6 hover:bg-primary hover:text-white rounded-sm' icon={faCode}></FontAwesomeIcon>
                         </div>
@@ -28,7 +28,7 @@ const Features = () => {
                             <p className='pt-2 text-accent'>If you want that, your website will work perfectly so that every update on the internet will work properly? Then you should need a fresh & modern code design. That increases your website's beauty. </p>
                         </div>
                     </div>
-                    <div className='flex justify-between'>
+                    <div data-aos="fade-down-right" data-aos-duration="2000" className='flex justify-between'>
                         <div className='pr-3'>
                             <FontAwesomeIcon className='font-awesome text-4xl text-primary border p-6 hover:bg-primary hover:text-white rounded-sm' icon={faListCheck}></FontAwesomeIcon>
                         </div>
@@ -37,7 +37,7 @@ const Features = () => {
                             <p className='pt-2 text-accent'>If you want that, your website will load fast so that it can be interesting for people to visit? Then you should w3c validation on your website. That will increase your website's visitors.</p>
                         </div>
                     </div>
-                    <div className='flex justify-between'>
+                    <div data-aos="fade-down-left" data-aos-duration="2000" className='flex justify-between'>
                         <div className='pr-3'>
                             <FontAwesomeIcon className='font-awesome text-4xl text-primary border p-6 hover:bg-primary hover:text-white rounded-sm' icon={faLifeRing}></FontAwesomeIcon>
                         </div>
@@ -49,7 +49,7 @@ const Features = () => {
                             </p>
                         </div>
                     </div>
-                    <div className='flex justify-between'>
+                    <div data-aos="fade-down-left" data-aos-duration="2500" className='flex justify-between'>
                         <div className='pr-3'>
                             <FontAwesomeIcon className='font-awesome text-4xl text-primary border p-6 hover:bg-primary hover:text-white rounded-sm' icon={faFlag}></FontAwesomeIcon>
                         </div>
@@ -58,7 +58,7 @@ const Features = () => {
                             <p className='pt-2 text-accent'>If you work with me, then I will provide you unlimited revisions for my work to complete your project.</p>
                         </div>
                     </div>
-                    <div className='flex justify-between'>
+                    <div data-aos="fade-down-left" data-aos-duration="2800" className='flex justify-between'>
                         <div className='pr-3'>
                             <FontAwesomeIcon className='font-awesome text-4xl text-primary border p-6 hover:bg-primary hover:text-white rounded-sm' icon={faComment}></FontAwesomeIcon>
                         </div>

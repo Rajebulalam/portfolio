@@ -24,7 +24,7 @@ const Contact = () => {
                 <h2 style={{ fontFamily: 'Merienda' }} className='text-3xl text-white text-center font-bold py-4 line'>Contact Us</h2>
                 <h4 style={{ fontFamily: 'Merienda' }} className='text-secondary text-center text-xl'>If you have any question about me? Then you should contact with this.</h4>
                 <div className='grid grid-cols-1 sm:grid-cols-2 gap-10 py-10 items-center'>
-                    <div>
+                    <div data-aos="fade-right" data-aos-duration="1000">
                         <div className='flex'>
                             <div className='pr-4'>
                                 <FontAwesomeIcon className='font-awesome text-primary px-3 py-[10px] rounded-full bg-white' icon={faLocationDot}></FontAwesomeIcon>
@@ -54,7 +54,7 @@ const Contact = () => {
                             </div>
                         </div>
                     </div>
-                    <div className='bg-white rounded-sm p-5'>
+                    <div data-aos="fade-left" data-aos-duration="1000" className='bg-white rounded-sm p-5'>
                         <h3 style={{ fontFamily: 'Merienda' }} className='text-primary text-2xl font-bold pb-4'>Send Message</h3>
                         <form onSubmit={sendEmail}>
                             <input type="text" name="name" id="name" placeholder='Your Name' className='py-3 border-b border-3 outline-0 w-full mb-3' />

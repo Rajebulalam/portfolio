@@ -7,6 +7,8 @@
         "name": "Electric Tools",
         "project": "Full Stack Project",
         "description": "A manufacturing full-stack project. This project Developed on react and firebase authentication based. The project has different features for admin and normal users in DASHBOARD.",
+        "email": "rajebulalam01@gmail.com",
+        "password": "asdASD123!@#",
         "technologies": [
             "TailWind",
             "Rect",
@@ -62,30 +64,42 @@
     },
     {
         "id": 3,
-        "main": "https://i.ibb.co/YpvQ84d/architect.png",
-        "second": "https://i.ibb.co/rbrLvt7/architect2.png",
-        "third": "https://i.ibb.co/bWSrtdm/architect3.png",
-        "name": "Architect Service",
-        "project": "Front End Project",
-        "description": "Architect Portfolio project is created on react and firebase based. It's an independent service website for a single person.",
+        "main": "https://i.ibb.co/TLLFvYk/Screenshot-2022-10-01-at-09-28-22-Katirhat-High-School-Academic-Hour.png",
+        "second": "https://i.ibb.co/chfRcxm/Screenshot-2022-10-01-at-09-30-04-Katirhat-High-School-Home.png",
+        "third": "https://i.ibb.co/1KPvPVy/Screenshot-2022-10-01-at-09-32-10-Katirhat-High-School-Online-Admission.png",
+        "name": "Katirhat High School",
+        "project": "Full Stack Project",
+        "adminId": "01",
+        "adminPassword": "admin",
+        "studentId": "02",
+        "studentPassword": "tamim",
+        "teacherId": "03",
+        "teacherPassword": "akib",
+        "description": "Katirhat High School is a school base project. This project developed on react , node, express and mongodb. This project  The project has different features for Students, Teachers and Admin in DASHBOARD.",
         "technologies": [
             "HTML5",
             "CSS3",
-            "Bootstrap",
+            "Tailwind",
             "Firebase",
-            "React"
+            "React",
+            "React Hook Form",
+            "React Router",
+            "Express",
+            "Node",
+            "MongoDB"
         ],
-        "live": "https://artchitect-portfolio.firebaseapp.com/",
-        "git": "https://github.com/Rajebulalam/architect-service-provider-website",
+        "live": "https://katirhat-high-school.web.app/",
+        "git": "https://github.com/Rajebulalam/katirhatSchool",
         "features": [
-            "Created an architect service services system with fresh and clean code.",
+            "Created an school management system with fresh and clean code.",
             "Developed with responsiveness for all devices and optimized.",
-            "Login system implement by using firebase authentication.",
-            "Architect Portfolio project is created on react and firebase based.",
-            "This project has a home page , blog page, about page, registration and login page.",
-            "The home page contain responsive nav bar, banner, service section and also footer.",
-            "The service section has some interaction with react route.",
-            "And it has a protected route. Without register or login no one can get into checkout route."
+            "Login system implement by using custom authentication.",
+            "This project has various pages likes home page , blog page, about page, Dashboard and login page.",
+            "The home page contain responsive nav bar, Banner Slider, service section and also footer.",
+            "An admin can control everything and he can add teachers and students",
+            "And a teacher can add student and some others features like as notice, suggestions and student problem solve etc.",
+            "An student can solve their any kind of problem using this",
+            "And also a visitor can various kinds of features they can know about school,"
         ]
     }
 ]

@@ -11,7 +11,7 @@ const Works = () => {
                 <h2 style={{ fontFamily: 'Merienda' }} className='text-3xl text-primary text-center font-bold py-4'>Latest Work</h2>
                 <h4 style={{ fontFamily: 'Merienda' }} className='text-xl text-accent text-center font-semibold pt-4 pb-8'>Check Out my Latest Work</h4>
                 <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 gap-y-10'>
-                    <div className='border'>
+                    <div data-aos="zoom-in" data-aos-duration="1000" className='border'>
                         <img className='w-[500px]' src={work4} alt="work" />
                         <div className='px-3'>
                             <h3 style={{ fontFamily: 'Merienda' }} className='text-2xl text-primary font-bold pt-4 pb-2'>Electric Tools</h3>
@@ -22,7 +22,7 @@ const Works = () => {
                             </div>
                         </div>
                     </div>
-                    <div className='border'>
+                    <div data-aos="zoom-in" data-aos-duration="1000" className='border'>
                         <img className='w-[500px]' src={work5} alt="work" />
                         <div className='px-3'>
                             <h3 style={{ fontFamily: 'Merienda' }} className='text-2xl text-primary font-bold pt-4 pb-2'>Electric Tools</h3>
@@ -33,7 +33,7 @@ const Works = () => {
                             </div>
                         </div>
                     </div>
-                    <div className='border'>
+                    <div data-aos="zoom-in" data-aos-duration="1000" className='border'>
                         <img className='w-[500px] border-b' src={architect} alt="work" />
                         <div className='px-3'>
                             <h3 style={{ fontFamily: 'Merienda' }} className='text-2xl text-primary font-bold pt-4 pb-2'>Electric Tools</h3>

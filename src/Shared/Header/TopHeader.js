@@ -3,6 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons'
 import { faFacebookF, faGithub, faInstagram, faLinkedinIn, faTwitter } from '@fortawesome/fontawesome-free-brands';
 import { Link } from 'react-router-dom';
+import { ExternalLink } from 'react-external-link';
 
 const TopHeader = () => {
     return (
@@ -23,7 +24,7 @@ const TopHeader = () => {
                         <Link to='/' className='px-3 h-[20px] py-3 border-l'><FontAwesomeIcon className='font-awesome text-primary hover:text-blue-600' icon={faFacebookF}></FontAwesomeIcon></Link>
                         <Link to='/' className='px-3 h-[25px] py-3 border-l'><FontAwesomeIcon className='font-awesome text-primary hover:text-blue-600' icon={faTwitter}></FontAwesomeIcon></Link>
                         <Link to='/' className='px-3 h-[25px] py-3 border-l'><FontAwesomeIcon className='font-awesome text-primary hover:text-blue-600' icon={faLinkedinIn}></FontAwesomeIcon></Link>
-                        <Link to='/' className='px-3 h-[25px] py-3 border-l'><FontAwesomeIcon className='font-awesome text-primary hover:text-blue-600' icon={faGithub}></FontAwesomeIcon></Link>
+                        <ExternalLink href='https://github.com/Rajebulalam' className='px-3 h-[25px] py-3 border-l'><FontAwesomeIcon className='font-awesome text-primary hover:text-blue-600' icon={faGithub}></FontAwesomeIcon></ExternalLink>
                         <Link to='/' className='px-3 h-[24px] py-3 border-l border-r'><FontAwesomeIcon className='font-awesome text-primary hover:text-blue-600' icon={faInstagram}></FontAwesomeIcon></Link>
                     </div>
                 </div>
