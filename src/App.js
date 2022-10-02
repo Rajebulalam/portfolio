@@ -16,7 +16,7 @@ import TopHeader from './Shared/Header/TopHeader';
 
 function App() {
   return (
-    <div>
+    <div className='main-wrapper'>
       <TopHeader></TopHeader>
       <MainHeader></MainHeader>
       <Routes>

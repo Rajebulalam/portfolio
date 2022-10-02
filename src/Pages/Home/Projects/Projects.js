@@ -86,7 +86,7 @@ const Projects = () => {
                                                 <p className='pt-5'>
                                                     {
                                                         project.technologies.map((technology, index) => <span key={index}>
-                                                            <span className='btn px-6 mr-2 py-0 mb-2'>{technology}</span>
+                                                            <span className=' inline-block bg-black rounded text-white px-2 text-[12px] font-medium md:text-sm lg:px-6 mr-2 py-2 mb-2'>{technology}</span>
                                                         </span>)
                                                     }
                                                 </p>
